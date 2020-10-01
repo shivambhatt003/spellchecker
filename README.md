@@ -39,11 +39,11 @@ def variants(word):
 Of course that wasn't my only code, I added a lot more on top of Norvig's implementation.
 
 My additions are:
-  - short-circuiting options for faster checking
-  - hamming distance and word-frequency model based chooser for suggestions
-  - double word variants for catching more complex multi-typos
-  - vowel-swapping detection
-  - a reductions function to efficiently store word variants like `monster: ['m',['o', 'a'], 'n', 's', 't', 'e', 'r']`
+  - short-circuiting options for faster checking.
+  - hamming distance and word-frequency model based chooser for suggestions.
+  - double word variants for catching more complex multi-typos.
+  - vowel-swapping detection.
+  - a reductions function to efficiently store word variants like `monster: ['m',['o', 'a'], 'n', 's', 't', 'e', 'r']`.
 
 ## Faster Algorithm
 
